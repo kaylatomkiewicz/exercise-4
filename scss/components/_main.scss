@@ -10,14 +10,10 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-	background: url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+	background: url(http://kaylatomkiewicz.ca/cityscape.jpg) no-repeat;
 	background-size: cover;
 	height: 100%;
 }
-
-
-
-
 
 
 #feedback-page{
@@ -126,11 +122,11 @@ input:focus, textarea:focus {
 	background-color: $white;
 }
 
-#button-blue {
+#button {
 	font-family: $font-1;
 	float: left;
 	width: 100%;
-	border: $dark solid 4px;
+	border: $white solid 4px;
 	cursor: pointer;
 	background-color: $prime;
 	color: $white;
@@ -144,7 +140,7 @@ input:focus, textarea:focus {
 	font-weight: 700;
 }
 
-#button-blue:hover {
+#button:hover {
 	background-color: rgba(0,0,0,0);
 	color: $colour-hover;
 }

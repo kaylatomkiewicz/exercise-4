@@ -24,21 +24,21 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  background: url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+  background: url(http://kaylatomkiewicz.ca/cityscape.jpg) no-repeat;
   background-size: cover;
   height: 100%; }
 
-/* line 23, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 19, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 #feedback-page {
   text-align: center; }
 
-/* line 27, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 23, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 #form-main {
   width: 100%;
   float: left;
   padding-top: 0px; }
 
-/* line 33, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 29, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 #form-div {
   background-color: rgba(72, 72, 72, 0.4);
   padding-left: 35px;
@@ -54,7 +54,7 @@ html {
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px; }
 
-/* line 49, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 45, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 .feedback-input {
   color: #3c3c3c;
   font-family: Helvetica, Arial, sans-serif;
@@ -70,28 +70,28 @@ html {
   box-sizing: border-box;
   border: 3px solid rgba(0, 0, 0, 0); }
 
-/* line 67, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 63, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 .feedback-input:focus {
   background: #fff;
   box-shadow: 0;
-  border: 3px solid #3498db;
-  color: #3498db;
+  border: 3px solid #004700;
+  color: #004700;
   outline: none;
   padding: 13px 13px 13px 54px; }
 
-/* line 76, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 72, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 .focused {
   color: #30aed6;
   border: #30aed6 solid 3px; }
 
-/* line 81, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 77, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 #name {
   background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
   background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat; }
 
-/* line 88, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 84, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 #name:focus {
   background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
   background-size: 30px 30px;
@@ -99,46 +99,46 @@ html {
   background-position: 11px 8px;
   background-repeat: no-repeat; }
 
-/* line 96, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 92, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 #email {
   background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
   background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat; }
 
-/* line 103, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 99, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 #email:focus {
   background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
   background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat; }
 
-/* line 110, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 106, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 #comment {
   background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
   background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat; }
 
-/* line 117, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 113, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 textarea {
   width: 100%;
   height: 150px;
   line-height: 150%;
   resize: vertical; }
 
-/* line 125, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 121, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 input:hover, textarea:hover, input:focus, textarea:focus {
   background-color: #fff; }
 
-/* line 129, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
-#button-blue {
+/* line 125, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+#button {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   float: left;
   width: 100%;
-  border: #fbfbfb solid 4px;
+  border: #fff solid 4px;
   cursor: pointer;
-  background-color: #3498db;
+  background-color: #004700;
   color: #fff;
   font-size: 24px;
   padding-top: 22px;
@@ -147,29 +147,29 @@ input:hover, textarea:hover, input:focus, textarea:focus {
   margin-top: -4px;
   font-weight: 700; }
 
-/* line 147, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
-#button-blue:hover {
+/* line 143, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+#button:hover {
   background-color: rgba(0, 0, 0, 0);
-  color: #0493bd; }
+  color: #004700; }
+
+/* line 148, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+.submit:hover {
+  color: #004700; }
 
 /* line 152, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
-.submit:hover {
-  color: #3498db; }
-
-/* line 156, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 .ease {
   width: 0px;
   height: 74px;
   background-color: #fbfbfb;
   transition: 0.3s ease; }
 
-/* line 167, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+/* line 163, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
 .submit:hover .ease {
   width: 100%;
   background-color: #fff; }
 
 @media only screen and (max-width: 580px) {
-  /* line 173, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
+  /* line 169, /Users/kayla/Documents/Graphic Design/Web Dev 5/exercise-4/scss/components/main */
   #form-div {
     left: 3%;
     margin-right: 3%;
